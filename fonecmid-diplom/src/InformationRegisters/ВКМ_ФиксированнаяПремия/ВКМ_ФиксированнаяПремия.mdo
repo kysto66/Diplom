@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ae9d34c-88f5-4982-a584-a7a3a0da1705">
+  <producedTypes>
+    <selectionType typeId="c58364aa-2792-4e5a-8d25-41dc282fb396" valueTypeId="49d06d4e-a219-4a3f-804a-f5f7dc5d406b"/>
+    <listType typeId="3a973e7e-2f16-416c-82df-a027292daa14" valueTypeId="3e564e5b-ac7d-40b5-8d99-43671b02a3c0"/>
+    <managerType typeId="3539721f-8830-410b-9520-8accc46345aa" valueTypeId="75d1f868-44c8-4734-9bab-03af025c5559"/>
+    <recordSetType typeId="3ea6cb3b-192b-4024-9288-83d9e5b035a0" valueTypeId="2582b935-0ccd-4cdc-9b6e-36a59f70998b"/>
+    <recordKeyType typeId="0df52657-2b5c-470a-b70a-226028794ddd" valueTypeId="c4f2b30c-6f54-40a1-984a-8ec2944a1150"/>
+    <recordType typeId="ac11d7a3-79c0-4d07-b132-32f2ef253ae6" valueTypeId="9639bf72-4c92-4c4f-be82-b5653f47411d"/>
+    <recordManagerType typeId="11e20ee0-e506-4114-900e-c285e72ea84e" valueTypeId="fe9c9b3c-bded-46fc-935b-796f72a1854e"/>
+  </producedTypes>
+  <name>ВКМ_ФиксированнаяПремия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксированная премия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="f5581ee9-aa0b-49bc-9421-606760acac72">
+    <name>ВКМ_ФиксированнаяПремия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная премия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
